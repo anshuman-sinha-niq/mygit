@@ -1,0 +1,27 @@
+import java.io.*;
+
+import java.util.*;
+
+public class diff{
+
+    public static void main (String [] args)
+
+    {
+
+        int number1,number2,number3;
+
+        System.out.println("Enter two numbers:");
+
+        Scanner sc =new Scanner(System.in);
+
+        number1=sc.nextInt();
+
+        number2=sc.nextInt();
+
+        number3=number1-number2;
+
+        System.out.print("Subtraction of two number is "+number3);
+
+    }
+
+}
